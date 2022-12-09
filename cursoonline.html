@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRABAJO PRACTICO OBLIGATORIO</title>
+    <link rel="stylesheet" href="css/estilo.css">
+
+
+
+</head>
+
+
+<body>
+    <div>
+        <h1>VISUAL CODE</h1>
+    </div>
+         
+    <header>
+         
+        <div class="menudesplegable">
+            <button class="botondesplegable">Curso</button>
+            <div class="linkpaginas">
+                <a href="index.html"> Inicio</a>
+                <a href="caracteristicas.html">Opciones</a>
+                
+            </div>         
+            
+
+        </div>
+    </header>
+    <h2>Curso Online</h2>     
+    
+
+      
+
+    
+     
+    <form id="formulario">
+           Nombre: <input type="text" name="nombres" value=""/>
+           Apellido: <input type="text" name="apellidos" value=""/>
+           Direccion: <input type="text" name="direccion" value=""/>
+           Email: <input type="text" name="correo" value=""/>
+           Telefono: <input type="text" name="telefono" value=""/>
+
+    </form>
+        
+
+
+
+
+    
+    <!-- captcha -->
+
+    <h3 id="textcaptcha">CAPTCHA</h3>
+    <input type="text"id="validacion">
+    <button id="crearcaptcha" type="submit">Captcha</button>
+    <button id="validarcaptcha" type="submit">Validar</button>
+    <h3 id="verificacion"></h3>
+    
+
+    
+
+
+
+    <!-- tabla dinamica -->
+    <div id="boxtabla">
+        <form class="estilotabladinamica">
+            <input type="text" name="" id="idusuario" placeholder="ID">
+            <input type="text" name="" id="nombre" placeholder="Nombre">
+            <input type="text" name="" id="apellido" placeholder="Apellido">
+            <input type="email" name="" id="email" placeholder="Email">
+            <button type="button" id="btn-Add">Agregar</button>
+            <button type="button" id="button-delete">Borrar</button>
+            <button type="button" id="button-editar">Editar</button>
+            
+       <p class="inputsVacios"></p>
+        </form>
+    </div>
+    <table id="tabla">
+        <thead>
+            <tr>
+               <td>
+                    id
+               </td>
+                <td>
+                    Nombre
+                </td>
+                <td>
+                    Apellido        
+                </td>
+                <td>
+                    Email         
+                </td>
+            </tr>
+            
+        </thead >
+        
+        <tbody class="personales">
+            
+        </tbody>
+    </table>
+
+
+    <footer>
+        <img class="pie" src="imagenes/barra visual.png" alt="visual">
+    </footer>    
+<script src="js/js.js"></script>
+</body>
+</html>
